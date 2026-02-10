@@ -1,0 +1,16 @@
+# environment
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+
+# local data (team-specific)
+data/raw/
+data/encoded/
+
+# trained models (local)
+server/model/
+
+# editor files
+.vscode/
