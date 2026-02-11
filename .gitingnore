@@ -14,3 +14,7 @@ server/model/
 
 # editor files
 .vscode/
+
+# datasets
+data/raw/
+data/encoded/

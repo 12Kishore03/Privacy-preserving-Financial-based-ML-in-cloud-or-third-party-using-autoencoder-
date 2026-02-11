@@ -1,0 +1,36 @@
+{
+  "original_shape": [
+    200000,
+    24
+  ],
+  "encoded_shape": [
+    200000,
+    17
+  ],
+  "original_features": 16,
+  "encoded_features": 14,
+  "removed_identifiers": [
+    "Customer_ID",
+    "Customer_Name",
+    "Customer_Email",
+    "Customer_Contact",
+    "Transaction_ID",
+    "Transaction_Description",
+    "State",
+    "City",
+    "Bank_Branch",
+    "Transaction_Location",
+    "Merchant_ID"
+  ],
+  "variance_explained": 0.982492641336226,
+  "pca_components": 14,
+  "n_components_90": 13,
+  "n_components_95": 14,
+  "encoding_strategy": "PCA-based representation learning",
+  "privacy_guarantees": {
+    "direct_identifiers_removed": true,
+    "dimensionality_reduction": true,
+    "feature_obfuscation": true,
+    "reversibility_difficulty": "High (requires inverse PCA + scaler + encoders)"
+  }
+}
